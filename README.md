@@ -25,6 +25,8 @@ $bank_billet->extra_params = "?page=1";
 $bank_billets = $bank_billet->find('all');
 ```
 
+Veja um exemplo no arquivo [example.php](https://github.com/BielSystems/cobregratis-php/blob/master/example.php)
+
 ## Licença
 
 Esse código é livre para ser usado dentro dos termos da licença [MIT license](http://www.opensource.org/licenses/mit-license.php).
