@@ -1,12 +1,12 @@
 # PHP Wrapper para a API do Cobre Grátis
 
-Essa biblioteca é um conjunto de classes em PHP para acessar as informações do [Cobre Grátis](http://cobregratis.com.br) através da [API](https://github.com/BielSystems/cobregratis-api).
+Essa biblioteca é um conjunto de classes em PHP para acessar as informações do [Cobre Grátis](http://cobregratis.com.br) através da [API](https://github.com/CobreGratis/cobregratis-api).
 
 Todas as classes são herdadas do PHP ActiveResouce. Veja a documentação do [PHP ActiveResouce](https://github.com/lux/phpactiveresource) para mais informações.
 
 ## Instalando
 
-    git clone https://github.com/BielSystems/cobregratis-php.git
+    git clone https://github.com/CobreGratis/cobregratis-php.git
 
 ### Configurando seu token
 
@@ -48,7 +48,7 @@ if($bank_billets->errno) {
 }
 ```
 
-Veja um exemplo no arquivo [example.php](https://github.com/BielSystems/cobregratis-php/blob/master/example.php)
+Veja um exemplo no arquivo [example.php](https://github.com/CobreGratis/cobregratis-php/blob/master/example.php)
 
 ## Licença
 
@@ -56,11 +56,11 @@ Esse código é livre para ser usado dentro dos termos da licença [MIT license]
 
 ## Bugs, Issues, Agradecimentos, etc
 
-Comentários são bem-vindos. Envie seu feedback através do [issue tracker do GitHub](http://github.com/BielSystems/cobregratis-php/issues)
+Comentários são bem-vindos. Envie seu feedback através do [issue tracker do GitHub](http://github.com/CobreGratis/cobregratis-php/issues)
 
 ## Autor
 
-[**Rafael Lima**](http://github.com/rafaelp) trabalhando na [BielSystems](http://bielsystems.com.br)
+[**Rafael Lima**](http://github.com/rafaelp) trabalhando na [CobreGratis](http://bielsystems.com.br)
 
 Blog: [http://rafael.adm.br](http://rafael.adm.br)
 
