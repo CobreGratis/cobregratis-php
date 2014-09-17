@@ -9,6 +9,28 @@ require 'lib/CobreGratis.php';
 // $bank_billet->save();
 
 
+// Criando boleto Parcelado
+// $bank_billet = new BankBillet(array('amount' => 230.50, 'expire_at' => '2015-07-22', 'name' => 'Teste','save_customer' => true, 'send_email_on_creation' => true, 'parcels' => '2'));
+// $bank_billet->user = "minha_chave";
+// $bank_billet->password = "X";
+// $bank_billet->save();
+
+// Criando Assinatura
+// $bank_billet = new BankBillet(array('amount' => 230.50, 'expire_at' => '2015-07-22', 'name' => 'Teste','save_customer' => true, 'send_email_on_creation' => true, 'kind' => 'recurrent'));
+// $bank_billet->user = "minha_chave";
+// $bank_billet->password = "X";
+// $bank_billet->save();
+
+// Atualizando boleto
+// $bank_billet = new BankBillet();
+// $bank_billet->user = "minha_chave";
+// $bank_billet->password = "X";
+// $bank_billet->find(371470);
+// sleep(5);
+// $bank_billet->description = 'pqp';
+// $bank_billet->save();
+
+
 // Procurando boleto
 // $bank_billet = new BankBillet();
 // $bank_billet->user = "minha_chave";
