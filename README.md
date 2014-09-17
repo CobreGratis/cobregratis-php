@@ -48,7 +48,10 @@ if($bank_billets->errno) {
 }
 ```
 
-Veja um exemplo no arquivo [example.php](https://github.com/CobreGratis/cobregratis-php/blob/master/example.php)
+Veja os exemplos:
+[bank_billet.php](https://github.com/CobreGratis/cobregratis-php/blob/master/examples/bank_billet.php)
+[customer.php](https://github.com/CobreGratis/cobregratis-php/blob/master/examples/customer.php)
+
 
 ## Licença
 

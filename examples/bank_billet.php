@@ -3,10 +3,10 @@
 require 'lib/CobreGratis.php';
 
 // Criando boleto
-// $bank_billet = new BankBillet(array('amount' => 230.50, 'expire_at' => '2015-07-22', 'name' => 'Teste','save_customer' => true, 'send_email_on_creation' => true));
-// $bank_billet->user = "minha_chave";
-// $bank_billet->password = "X";
-// $bank_billet->save();
+$bank_billet = new BankBillet(array('amount' => 230.50, 'expire_at' => '2015-07-22', 'name' => 'Teste','save_customer' => true, 'send_email_on_creation' => true));
+$bank_billet->user = "minha_chave";
+$bank_billet->password = "X";
+$bank_billet->save();
 
 
 // Criando boleto Parcelado
