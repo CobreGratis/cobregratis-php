@@ -97,6 +97,7 @@ require 'lib/CobreGratis.php';
 // status_eq - Status do boleto
 // events_event_eq - Status de eventos
 // tags_name_in  - Categoria
+// cnpj_cpf_cont - CPF/CNPJ do cliente formatado 000.000.000-00
 // 
 // Exemplo - Quero todos os boletos de clientes que tem nome Mauro, que vencerão em 2015 com valor igual ou maior que 12,99
 // 
@@ -104,7 +105,6 @@ require 'lib/CobreGratis.php';
 // $bank_billet->user = "minha_chave";
 // $bank_billet->password = "X";
 // $bank_billet->extra_params = "?page=1&search[name_cont]=Mauro&search[expire_at_gteq]='2015-01-01'&search[expire_at_lteq]='2015-12-31'&search[amount_gteq]=12,99";
-//
 // $bank_billets = $bank_billet->find('all');
 //
 // if($bank_billets->errno) {
@@ -114,7 +114,8 @@ require 'lib/CobreGratis.php';
 //     print "Nosso Número: $bank_billet->our_number\n";
 //     print "Vencimento: $bank_billet->expire_at\n";
 //     print "Valor: $bank_billet->amount\n";
-//     print "Sacado: $bank_billet->name\n";
+//     print "Pagador: $bank_billet->name\n";
+//     print "CPF/CNPJ do pagador: $bank_billet->cnpj_cpf\n";
 //     print "URL: $bank_billet->external_link\n";
 //     print "Email Status: $bank_billet->email_state\n";
 //     print "Email Delayed: $bank_billet->email_delayed_at\n";
