@@ -51,7 +51,7 @@ if($bank_billets->errno) {
 Veja os exemplos:
 [bank_billet.php](https://github.com/CobreGratis/cobregratis-php/blob/master/examples/bank_billet.php)
 [customer.php](https://github.com/CobreGratis/cobregratis-php/blob/master/examples/customer.php)
-
+[bank_billet_subscription.php](https://github.com/CobreGratis/cobregratis-php/blob/master/examples/bank_billet_subscription.php)
 
 ## Licença
 

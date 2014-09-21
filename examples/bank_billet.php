@@ -85,7 +85,7 @@ require 'lib/CobreGratis.php';
 // Datas no formato americando 2014-08-21
 // Valor no formato de reais 12,50
 // 
-// service_id_eq - ID do Serviço
+// service_id_eq - ID do Modelo
 // name_cont - Nome do cliente
 // bank_billet_account_id_eq - ID conta de cobrança
 // processed_our_number_cont = Nosso número
