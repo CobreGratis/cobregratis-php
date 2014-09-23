@@ -3,12 +3,10 @@
 require 'lib/CobreGratis.php';
 
 // Atualizando Assinatura
-// $assinatura = new BankBilletSubscription();
+// Forneça o ID e quais campos quer atualizar
+// $assinatura = new BankBilletSubscription(array('id' => 1, 'description' => 'Descrição nova'));
 // $assinatura->user = "minha_chave";
 // $assinatura->password = "X";
-// $assinatura->find(371470);
-// sleep(5);
-// $assinatura->description = 'pqp';
 // $assinatura->save();
 
 // Listando assinaturas

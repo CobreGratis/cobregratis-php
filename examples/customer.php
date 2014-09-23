@@ -3,10 +3,17 @@
 require 'lib/CobreGratis.php';
 
 // Criando cliente
-$customer = new Customer(array('name' => 'Cliente Teste'));
-$customer->user = "minha_chave";
-$customer->password = "X";
-$customer->save();
+// $customer = new Customer(array('name' => 'Cliente Teste'));
+// $customer->user = "minha_chave";
+// $customer->password = "X";
+// $customer->save();
+
+// Atualizando um cliente
+// Forneça o ID e quais campos quer atualizar
+// $customer = new Customer(array('id' => 1, 'name' => 'Nome novo'));
+// $customer->user = "minha_chave";
+// $customer->password = "X";
+// $customer->save();
 
 // Procurando cliente
 // $customer = new Customer();

@@ -9,8 +9,11 @@ require 'lib/CobreGratis.php';
 // $bank_billet = new BankBillet(array('amount' => 230.50, 'expire_at' => '2015-07-22', 'name' => 'Teste','save_customer' => true, 'send_email_on_creation' => true));
 // $bank_billet->user = "minha_chave";
 // $bank_billet->password = "X";
-// $bank_billet->save();
-
+// $resultado = $bank_billet->save();
+// print "Identificador: $resultado->id\n";
+// print "Nosso Número: $resultado->our_number\n";
+// print "Vencimento: $resultado->expire_at\n";
+// print "Valor: $resultado->amount\n";
 
 // Criando boleto Parcelado
 // $bank_billet = new BankBillet(array('amount' => 230.50, 'expire_at' => '2015-07-22', 'name' => 'Teste','save_customer' => true, 'send_email_on_creation' => true, 'parcels' => '2'));
@@ -25,14 +28,18 @@ require 'lib/CobreGratis.php';
 // $bank_billet->save();
 
 // Atualizando boleto
-// $bank_billet = new BankBillet();
+// Forneça o ID e quais campos quer atualizar
+// Somente boletos em Rascunho podem ser atualizados
+// $bank_billet = new BankBillet(array('id' => 371849, 'description' => 'Descrição nova'));
 // $bank_billet->user = "minha_chave";
 // $bank_billet->password = "X";
-// $bank_billet->find(371470);
-// sleep(5);
-// $bank_billet->description = 'pqp';
 // $bank_billet->save();
 
+//Cancelando um boleto
+// $bank_billet = new BankBillet(array('id' => 1));
+// $bank_billet->user = "minha_chave";
+// $bank_billet->password = "X";
+// $resultado = $bank_billet->put('cancel');
 
 // Detalhes do boleto
 // $bank_billet = new BankBillet();
