@@ -104,7 +104,7 @@ require 'lib/CobreGratis.php';
 // status_eq - Status do boleto
 // events_event_eq - Status de eventos
 // tags_name_in  - Categoria
-// cnpj_cpf_cont - CPF/CNPJ do cliente formatado 000.000.000-00
+// cnpj_cpf_eq - CPF/CNPJ do cliente formatado 000.000.000-00
 // customer_email_eq - E-mail do cliente
 // 
 // Exemplo - Quero todos os boletos de clientes que tem nome Mauro, que vencerão em 2015 com valor igual ou maior que 12,99
